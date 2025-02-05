@@ -9,22 +9,29 @@
     <body>
         <nav>
             <ul>
-                <li>CopyCatCoffee</li>
-                <li>Drop Down</li>
-                <li>Cart</li>
+                <li>CopyCatCoffee</li> <!-- Might need to be in its own div to move around-->
+                <li>SHOP</li>
+                <li>SUBSCRIPTIONS</li>
+                <li>WHOLESALE</li>
+                <li>CAFE</li>
+                <li>ABOUT</li>
+                <li>BLOG</li>
             </ul>
+            <div class="contact">CONTACT</div>
+            <div class="log-in">LOG IN</div>
+            <div class="cart">CART</div>
         </nav>
-
-        <img src="coffee.jpg" />
-
+        <section class="image">
+            <img src="coffee.jpg" />
+        </section>
         <div>
-            <ul class="list">
+            <ul class="hours">
                 <li>Weekdays 7am - 4pm</li>
                 <li>Weekends 8am - 4pm</li>
                 <li>ADDRESS 815 N. Hudson Ave. OKC. OK</li>
             </ul>
         </div>
-        <div id="forms">
+        <div class="write-us">
             <h2>Write Us</h2>
             <form action="">
                 <label for="fname">First Name</label>
@@ -56,7 +63,19 @@
                     placeholder="Leave us a message!"
                 />
                 <input type="submit" value="Submit" />
-            </form>
+            </form action="">
+            <div class="map"><img alt="map"/></div>
+            <div>
+                <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+                <form>
+                    <input type="email" name="newsemail" placeholder="Email">
+                    <input type="submit" value="Send >" />
+                    <img alt="captcha">
+                </form>
+            </div>
         </div>
+        <footer>
+            <p> &copy; 2025 RIGHTS ARE RESERVED</p>
+        </footer>
     </body>
 </html>
